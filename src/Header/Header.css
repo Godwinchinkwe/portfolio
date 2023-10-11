@@ -37,3 +37,20 @@
     color:purple ;
     
 }
+.burger{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navmain{
+        display: none;
+    }
+
+    .butt{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+}
+

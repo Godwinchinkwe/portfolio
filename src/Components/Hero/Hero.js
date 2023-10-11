@@ -19,7 +19,7 @@ const Hero = () => {
                     <span class="looop">
                         <Typewriter
                         options={{
-                            strings : [ "This is how the earth move round the Sun", "Youtuber" , "Designer", "FrontEnd Developer" ],
+                            strings : [ "Affiliate Markrter", "Seo Manager" , "Business Man" , "programmer" , "Youtuber" , "Designer", "FrontEnd Developer" ],
                             loop: true,
                             autoStart:true,
                             typeSpeed: 100,
