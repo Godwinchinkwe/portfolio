@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    width: 120px;
+    height: 80%;
+}
+
+.main_header{
+    width: 100%;
+    height: 75px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_wrap{
+    width: 85%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background:greenyellow; */
+}
+.navmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.butt{
+    width:120px;
+    height: 40px;
+    border-radius: 20px;
+    color:purple ;
+    
+}
