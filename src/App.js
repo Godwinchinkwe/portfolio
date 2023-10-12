@@ -13,17 +13,16 @@ function App() {
     <div className="App">
        <Router>
         <Header/>
-<Routes>
-  <Route path="/" element={<Hero />}/>
-  <Route path="/About" element={<About />}/>
-  <Route path="/Skills" element={<Skills />}/>
-  <Route path="/Education" element={<Education/>}/>
-  <Route path="/Experience" element={<Experience />}/>
-  <Route path="/Project" element={<Project />}/>
-</Routes>
-</Router>
+  <Routes>
+    <Route path="/" element={<Hero />}/>
+    <Route path="/About" element={<About />}/>
+    <Route path="/Skills" element={<Skills />}/>
+    <Route path="/Education" element={<Education/>}/>
+    <Route path="/Experience" element={<Experience />}/>
+    <Route path="/Project" element={<Project />}/>
+  </Routes>
+  </Router>
      
-     {/* <h1>port folio</h1> */}
     </div>
   );
 }

@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.skill_main{
+    width: 100%;
+    /* min-height: 85vh; */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:rgb(32, 31, 31);
+    padding-top: 25px;
+
+}
+.skill_wrap{
+    width: 80%;
+    min-height: 85vh;
+    height: fit-content;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    background: rgb(182, 140, 124);
+    height: 90%;
+
+}
+.skill_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.skill_card{
+    width: 300px;
+    height: 250px;
+    background: green;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 16px;
+    border: 0.1px solid;
+}
+.frontend{
+    width: 40px;
+    height: 50px;
+    gap: 20px;
+}

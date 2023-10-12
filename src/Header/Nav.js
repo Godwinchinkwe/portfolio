@@ -5,34 +5,35 @@ import { NavLink } from "react-router-dom";
 function Nav() {
 
   let activeStyle = {
-    textDecoration: "underline",
-    fontSize:"15px",
+    // textDecoration: "underline",
+    fontSize:"19px",
     color:"green",
-    fontWeight:"700" 
+    fontWeight:"800" 
   };
+
 
   return (
     <div class="navmain">
 
-<NavLink to="/"
+<NavLink to="Skills/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-        <p> About</p></NavLink>
+        <p class="nav_text"> Skills</p></NavLink>
         
-        <NavLink to="Skills/"
+        <NavLink to="About/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-        <p> SKills</p></NavLink>
+        <p class="nav_text"> About</p></NavLink>
 
-        <NavLink to="Experience/"
+        <NavLink to="Experience/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-        <p> Experience</p></NavLink>
+        <p class="nav_text"> Experience</p></NavLink>
 
-        <NavLink to="Project/"
+        <NavLink to="Project/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-        <p>Project</p></NavLink>
+        <p class="nav_text">Project</p></NavLink>
 
-        <NavLink to="Education/"
+        <NavLink to="Education/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
-        <p> Education</p></NavLink>
+        <p class="nav_text"> Education</p></NavLink>
       
     </div>
   )
