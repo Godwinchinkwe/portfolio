@@ -29,13 +29,13 @@
     gap: 25px;
     text-decoration: none;
 }
-.butt{
+.but{
     width:120px;
     height: 40px;
     border-radius: 20px;
-    color:purple ;
-    
+    color:purple ; 
 }
+
 .burger{
     display: none;
 }
@@ -50,13 +50,46 @@
     text-decoration: none;
     cursor: pointer;
 }
+.maindrop{
+    position:absolute;
+    right:0%;
+    top:14.5%;
+    background:#0C764C;
+    color:white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    z-index: 200;
+    box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
+    height: 320px;  
+}
+
+.dropwrap{
+    display: flex;
+    gap:20px;
+    /* background: red; */
+    flex-direction: column;
+    text-align: center;
+}
+.fd{
+    height: 40px;
+    background: rebeccapurple;
+    text-align: center;
+    padding: 10px;
+}
+.fd:hover{
+    height: 40px;
+    background: rgb(103, 90, 116);
+   
+}
+
 
 @media screen and (max-width: 768px) {
     .navmain{
         display: none;
     }
-
-    .butt{
+    .but{
         display: none;
     }
     .burger{

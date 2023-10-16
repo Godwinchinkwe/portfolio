@@ -19,10 +19,7 @@ function Skills({props}) {
           <Skillcard
           title="Others" />
         </section>
-
-      </div>
-        
-      
+      </div> 
     </div>
   )
 }
