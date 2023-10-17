@@ -14,6 +14,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #000;
+    color:white ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header_wrap{
     width: 80%;
@@ -33,7 +36,7 @@
     width:120px;
     height: 40px;
     border-radius: 20px;
-    color:purple ; 
+    color:black ; 
 }
 
 .burger{
@@ -42,13 +45,14 @@
 .nav_text{
     text-decoration: none;
     cursor: pointer;
-    color:#181a19 ;
+
 
 }
 
 .nav_text1{
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 .maindrop{
     position:absolute;

@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 function Nav() {
 
   let activeStyle = {
-    // textDecoration: "underline",
+    textDecoration: "underline",
     fontSize:"19px",
-    color:"green",
+    color:"gold",
     fontWeight:"800" 
   };
 

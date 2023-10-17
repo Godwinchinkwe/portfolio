@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    background:orange;
+    justify-content: center;
+    align-items: center;
+}
+.about-wrap{
+    width:85%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #000; */
+}
+.about-left{
+    width: 48%;
+    height:80%;
+    background: blue;
+}
+.about-right{
+    width: 48%;
+    height:80%;
+    background: rgb(187, 160, 6);
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-right1{
+    width:48%;
+    height:48% ;
+    background: rebeccapurple;
+}
