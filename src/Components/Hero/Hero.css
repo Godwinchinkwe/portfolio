@@ -35,13 +35,21 @@
 .geefoto{
     width: 80%;
     height: 100%;
+    
 }
 .looop{
     color:rgb(223, 226, 43);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400px;
     font-size: 20px;
+
+    /* .animate__animated.animate__bounce {
+        --animate-duration: 2s;
+      } */
 }
+
+
+
 .butt{
     width:120px;
     height: 40px;
@@ -52,7 +60,7 @@
 }
 .butt:hover{
     border-radius: 20px;
-    color:rgb(138, 139, 167) ; 
+    color:gold ; 
     background: #000;
 }
 

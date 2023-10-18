@@ -2,23 +2,22 @@ import React from 'react'
 import "./Hero.css"
 import geee from "../../Img/geee.png"
 import Typewriter from "typewriter-effect"
+import 'animate.css';
 
 const Hero = () => {
 
     
-
   return (
     <div class="hero_main">
         <div class="hero_wrap">
             <div class="hero_left">
-                <h2>Hi, I am <br/>
+                <h2 class="animate__animated animate__backInLeft;">Hi, I am <br/>
                Godwin Chinkwe</h2><br/>
-
+               
                 <div>
                     I am a 
-                    <span class="looop">
-                        <Typewriter
-                        options={{
+                    <span class="looop ">
+                        <Typewriter options={{
                             strings : [ "Affiliate Markrter", "Seo Manager" , "Business Man" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer"],
                             loop: true,
                             autoStart:true,
@@ -30,7 +29,7 @@ const Hero = () => {
                 </div>
                 
                 <br/>
-                <p>  
+                <p class="animate__animated animate__bounceInDown animate__delay 2s;" >  
                  Of course! I'd be happy to learn more about you. 
                  Please feel free to share information about yourself, 
                  such as your name, age, interests, hobbies, profession, 
@@ -42,7 +41,7 @@ const Hero = () => {
             </div>
 
             <div class="hero_right">
-                <img class="geefoto"src={geee} alt="" />
+                <img class="geefoto animate__animated.animate__bounce;" src={geee} alt="" />
             </div>
 
         </div>
@@ -51,4 +50,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;

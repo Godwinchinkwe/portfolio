@@ -20,3 +20,5 @@ export const  ligthTheme = {
     button: "#5c5b5b",
    
 };
+
+<Typewriter options={{}}/>
