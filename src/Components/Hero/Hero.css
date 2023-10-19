@@ -9,7 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background:rgb(32, 31, 31);
+    /* background:rgb(32, 31, 31); */
+    background-image: url("../../Img/giphy.gif");
+    /* background-repeat:no-repeat;  */
+    background-size: "cover";
+    background-position: center center;
 }
 .hero_wrap{
     width: 85%;
@@ -43,9 +47,7 @@
     font-weight: 400px;
     font-size: 20px;
 
-    /* .animate__animated.animate__bounce {
-        --animate-duration: 2s;
-      } */
+   
 }
 
 
@@ -66,10 +68,11 @@
 
 @media screen and (max-width: 768px) {
     .hero_main{
-        background-image: url("../../Img/geee.png");
+        background-image: url("../../Img/giphy.gif");
         background-repeat:no-repeat; 
          background-size: "cover";
          background-position: center center;
+         /* background: #7e6060; */
     }
     .hero_wrap{
         width: 100%;

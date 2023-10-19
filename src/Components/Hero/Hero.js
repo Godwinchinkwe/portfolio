@@ -11,7 +11,7 @@ const Hero = () => {
     <div class="hero_main">
         <div class="hero_wrap">
             <div class="hero_left">
-                <h2 class="animate__animated animate__backInLeft;">Hi, I am <br/>
+                <h2 class=" animate__animated animate__backInDown animate__delay 2s; ">Hi, I am <br/>
                Godwin Chinkwe</h2><br/>
                
                 <div>
@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
                 
                 <br/>
-                <p class="animate__animated animate__bounceInDown animate__delay 2s;" >  
+                <p class="animate__animated animate__backInLeft animate__delay 2s;" >  
                  Of course! I'd be happy to learn more about you. 
                  Please feel free to share information about yourself, 
                  such as your name, age, interests, hobbies, profession, 
@@ -37,11 +37,11 @@ const Hero = () => {
                  provide more personalized information or answer any 
                  questions you might have about yourself.</p> <br/>
 
-                 <button class="butt"> Check Resume </button>
+                 <button class="butt animate__animated animate__backInUp animate__delay 2s;"> Check Resume </button>
             </div>
 
-            <div class="hero_right">
-                <img class="geefoto animate__animated.animate__bounce;" src={geee} alt="" />
+            <div class="hero_right animate__animated animate__backInRight animate__delay 2s;">
+                <img class="geefoto" src={geee} alt="" />
             </div>
 
         </div>

@@ -1,12 +1,13 @@
 import React from 'react'
 import {useNavigate} from "react-router-dom"
+import 'animate.css';
 
 const Falldown = (prop) => {
   const navigate = useNavigate();
   const {props} = prop  
   
   return (
-    <div className='maindrop'>
+    <div className='maindrop animate__animated animate__bounceInDown animate__delay 2s;'>
     <div className='dropwrap'>
         <p className='fd' onClick={() => {props(); navigate('Skills/')}} >Skills</p>
         <p className='fd' onClick={() => {props(); navigate('About/')}}>About</p>

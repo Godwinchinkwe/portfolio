@@ -63,7 +63,7 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
-    width:80%;
+    width:100%;
     z-index: 200;
     box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
     height: 320px;  
