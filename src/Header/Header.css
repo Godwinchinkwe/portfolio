@@ -58,8 +58,8 @@
     position:absolute;
     right:0%;
     top:14.5%;
-    background:#0C764C;
-    color:white;
+    background:#131312;
+    color:rgb(24, 24, 23);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@
 }
 .fd{
     height: 40px;
-    background: rebeccapurple;
+    background: rgb(213, 236, 5);
     text-align: center;
     padding: 10px;
 }
