@@ -7,35 +7,74 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
-    background:orange;
+    /* min-height: 100vh; */
     justify-content: center;
     align-items: center;
+    background-image: url("../../Img/giphy.gif");
+    background-size: "cover";
+    background-position: center center;
 }
 .about-wrap{
     width:85%;
-    height: 80vh;
+    /* height: 80vh; */
+    /* height: fit-content; */
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     /* background: #000; */
+    /* flex-direction: row-reverse; */
 }
 .about-left{
     width: 48%;
     height:80%;
-    background: blue;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    /* backdrop-filter: blur(0px) saturate(64%); */
+    /* -webkit-backdrop-filter: blur(0px) saturate(74%); */
+    background-color: rgba(53, 49, 49, 0.356);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
 }
 .about-right{
     width: 48%;
     height:80%;
-    background: rgb(187, 160, 6);
+    padding: 20px;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow:0 0 1px rgba(0, 0, 0, 24)0px 3px 8px ;
 }
 .about-right1{
     width:48%;
     height:48% ;
     background: rebeccapurple;
+}
+
+.gwclass{
+    width: 320px;
+    height: 90%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .about-wrap{
+        display: flex;
+        flex-direction:column-reverse;
+        /* gap: 20px; */
+    }
+    .about-left{
+        width: 90%;
+    }
+    .about-right{
+        width: 90%;
+        margin-top: 20px;
+        padding: 0%;
+    }
+
 }
