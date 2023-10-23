@@ -19,7 +19,7 @@
     /* height: 80vh; */
     /* height: fit-content; */
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     align-items: center;
     /* background: #000; */
     /* flex-direction: row-reverse; */
