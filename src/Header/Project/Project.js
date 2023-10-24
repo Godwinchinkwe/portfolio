@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import ProjectItem from "./Projectitems"
+import { ProjectList } from "./ProjectList"
+import "./Project.css";
 
-const Project = () => {
+function Projects() {
   return (
-    <div>
-      <h1> Project</h1>
+    <div className="projects">
+      <h1> My Personal Projects</h1>
+      <div className="projectList">
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} />
+          );
+        })}
+      </div>
     </div>
-  )
+  );
 }
 
-export default Project
+export default Projects;

@@ -27,7 +27,7 @@ function Nav() {
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
         <p class="nav_text"> Experience</p></NavLink>
 
-        <NavLink to="Project/" className="nav_text1"
+        <NavLink to="Projects/" className="nav_text1"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}>
         <p class="nav_text">Project</p></NavLink>
 

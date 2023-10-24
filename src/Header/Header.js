@@ -22,7 +22,7 @@ function Header() {
       <div class="header_wrap">
     <BiLogoUnsplash fontSize={"45px"} onClick={() =>  navigate('/')} />
     <Nav />
-    <button class="but"> Github profile</button>
+    <button class="but" > Github profile</button>
 
     <div class="burger">
     {toggle ? <FaTimes fontSize={"45px"} onClick={handlechange}/>: <ImMenu3 fontSize={"45px"} onClick={handlechange}/>}
