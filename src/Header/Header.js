@@ -22,7 +22,11 @@ function Header() {
       <div class="header_wrap">
     <BiLogoUnsplash fontSize={"45px"} onClick={() =>  navigate('/')} />
     <Nav />
+
+    <a target="_blank" rel="noreferrer" href="https://github.com/Godwinchinkwe">
     <button class="but" > Github profile</button>
+  </a>
+
 
     <div class="burger">
     {toggle ? <FaTimes fontSize={"45px"} onClick={handlechange}/>: <ImMenu3 fontSize={"45px"} onClick={handlechange}/>}
