@@ -17,14 +17,8 @@ const Falldown = (prop) => {
 
         <a className='fd' target="_blank" rel="noreferrer" href="https://github.com/Godwinchinkwe">
         <p  >Gitbub Profile</p></a>
-
-
- 
     </div>
-    
-  
 </div>
   )
 }
-
 export default Falldown

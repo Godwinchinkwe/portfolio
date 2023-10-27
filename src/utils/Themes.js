@@ -17,8 +17,7 @@ export const  ligthTheme = {
     text_primary: "#111111",
     text_secondary: "#48494a",
     card:"#ffffff",
-    button: "#5c5b5b",
-   
+    button: "#5c5b5b",   
 };
 
 <Typewriter options={{}}/>
