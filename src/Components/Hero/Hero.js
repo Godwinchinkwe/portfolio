@@ -3,11 +3,13 @@ import "./Hero.css"
 import geee from "../../Img/geee.png"
 import Typewriter from "typewriter-effect"
 import 'animate.css';
-
+import Skills from "../../Header/Skills/Skills"
+import Experience from "../../Header/Experience/Experience"
 const Hero = () => {
 
     
   return (
+    <>
     <div class="hero_main">
         <div class="hero_wrap">
             <div class="hero_left">
@@ -18,7 +20,7 @@ const Hero = () => {
                     I am a 
                     <span class="looop ">
                         <Typewriter options={{
-                            strings : [ "Affiliate Markrter", "Seo Manager" , "Business Man" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer"],
+                            strings : [ "Affiliate Marketer", "Seo Manager" , "Business Tycoon" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer"],
                             loop: true,
                             autoStart:true,
                             typeSpeed: 100,
@@ -42,11 +44,16 @@ const Hero = () => {
 
             <div class="hero_right animate__animated animate__backInRight animate__delay 2s;">
                 <img class="geefoto" src={geee} alt="" />
+                
             </div>
 
         </div>
+        
       
     </div>
+    <Skills/>
+    <Experience/>
+    </>
   )
 }
 
