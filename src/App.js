@@ -8,10 +8,12 @@ import Education from './Header/Education/Education';
 import Experience from './Header/Experience/Experience';
 import Projects from './Header/Project/Project';
 import ProjectDisplay from './Header/Project/ProjectDisplay';
+import ParticlesBackground from './Components/Config/ParticlesBackground';
 
 function App() {
   return (
     <div className="App">
+      <ParticlesBackground/>
        <Router>
         <Header/>
   <Routes>

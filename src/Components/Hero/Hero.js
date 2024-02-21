@@ -20,7 +20,7 @@ const Hero = () => {
                     I am a 
                     <span class="looop ">
                         <Typewriter options={{
-                            strings : [ "Affiliate Marketer", "Seo Manager" , "Business Tycoon" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer"],
+                            strings : [ "Affiliate Marketer", "Seo Manager" , "Business Tycoon" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer", "Cool Website Developer", ],
                             loop: true,
                             autoStart:true,
                             typeSpeed: 100,
@@ -32,12 +32,7 @@ const Hero = () => {
                 
                 <br/>
                 <p class="animate__animated animate__backInLeft animate__delay 2s;" >  
-                 Of course! I'd be happy to learn more about you. 
-                 Please feel free to share information about yourself, 
-                 such as your name, age, interests, hobbies, profession, 
-                 or anything else you'd like to share. This will help me 
-                 provide more personalized information or answer any 
-                 questions you might have about yourself.</p> <br/>
+                I am passionate about using Javascript and Animation Libraries to create awesome user experiences. With over five years of experience developing web applications using the latest front-end and back-end technologies.</p> <br/>
 
                  <button class="butt animate__animated animate__backInUp animate__delay 2s;"> Check Resume </button>
             </div>
