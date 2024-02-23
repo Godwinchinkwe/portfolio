@@ -11,13 +11,13 @@ const Works = () => {
         <div className='awesome'>
             <span> Works for All these</span>
             <span> Brand & Clients</span>
-            <spane>
+            <span>
                Lorem Ipsum is simply dummy text of the yummy dummy 
               <br/>
               printing and typesetting industry  
                <br/>
             ispum is simply dummy text of printing
-            </spane>
+            </span>
             <button className='button s-button'> Hire me </button>
             <div className='blur s-blur1' style={{background:"#abf1ff94"}}></div>
 
