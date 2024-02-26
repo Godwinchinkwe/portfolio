@@ -55,9 +55,9 @@ const Testimonials = () => {
   return (
     <div className='t-wrapper'>
         <div className='t-header'>
-            <span>Clients always get</span>
-            <span>Exceptional Work</span>
-            <span>from me. . .</span>
+            <span className='testy1' >Clients always get</span>
+            <span className='testy'> Exceptional Work</span>
+            <span className='testy1'> from me. . .</span>
             <div className='blur t-blurl' style={{background: "var(--purplr)"}}></div>
             <div className='blur t-blurl' style={{background: "skyblue"}}></div>
         </div>
