@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    top: 0;
+    align-items: center;
+    /* top: 0; */
   }
   .n-left {
     flex: 1;
@@ -45,7 +46,7 @@
     height: 2rem;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 758px) {
     .n-list {
       display: none;
     }
