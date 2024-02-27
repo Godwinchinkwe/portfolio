@@ -4,12 +4,12 @@ import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
-
   const [ done, setDone] = useState(false)
+
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs
       .sendForm('service_37vibr2', 'template_9pbffde', form.current, {
         publicKey: 'qAnAsVahlFfnpPoMR',
@@ -25,6 +25,10 @@ const Contact = () => {
         },
       );
   };
+
+  
+
+ 
   
 
   return (
@@ -45,8 +49,8 @@ const Contact = () => {
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_name" className="user" required placeholder="Name"/>
-          <input type="email" name="user_email" className="user" required placeholder="Email"/>
-          <textarea name="message" className="user" required placeholder="Message"/>
+          <input type="email"  name="user_email" className="user" required placeholder="Email"/>
+          <textarea name="message"  className="user" required placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
           <span>{done && "Thanks for Contacting Us"}</span>
           <div

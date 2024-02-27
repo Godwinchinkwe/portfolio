@@ -10,14 +10,27 @@ import glassesimoji from "../../Img/glassesimoji.png"
 import crown from "../../Img/crown.png"
 import thumbsup from "../../Img/thumbsup.png" 
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+// import { motion } from "framer-motion"
+
+
+
 const Intro = () => {
+
+  // const transition = { duration : 2, type : "spring"} 
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode; 
+
+
   return (
     <div className='intro'>
         <div className='i-left'>
             <div className='i-name'>
-                <span> Hy! I Am </span>
+                <span style ={{color:darkMode?"white":""}}> Hy! I Am </span>
                 <span> Godwin Chinkwe </span>
-                <span> Frontend Developer with high level of 
+                <span  style ={{color:darkMode?"white":""}}> Frontend Developer with high level of 
                     experience in web designing and development, proudcting the Quality work </span>
             </div>
             <button className='button i-button'> Hire Me</button>

@@ -13,8 +13,8 @@ const Services = () => {
         <div className='awesome'>
             <span> My Awesome</span>
             <span> Services</span>
-            <spane> Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
-            ispum is simply dummy text of printing</spane>
+            <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
+            ispum is simply dummy text of printing</span>
             <a href={Resume} download>
             <button className='button s-button'> Download CV</button> </a>
             <div className='blur s-blur1' style={{background:"#abf1ff94"}}></div>

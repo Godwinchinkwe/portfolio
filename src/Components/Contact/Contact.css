@@ -5,13 +5,19 @@
     margin-top: 4rem;
       /* scroll */
   padding-top: 3rem;
+  width: 80%;
+  justify-content: center;
+  /* align-items: center; */
+  /* background: pink; */
 }
 
 .c-right{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
     flex: 1;
+    /* width: 35%; */
+     /* background: grey; */
 }
 
 .c-right>form
@@ -31,6 +37,11 @@
     border: 2px solid var(--orange);
     border-radius: 8px;
     font-size: 16px;   
+}
+.w-left{
+    /* width: 35%; */
+    /* background: grey; */
+    text-align: flex-end;
 }
 
 textarea{
