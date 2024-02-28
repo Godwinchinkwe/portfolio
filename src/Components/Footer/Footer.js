@@ -17,6 +17,10 @@ const Footer = () => {
           {/* <Gitub color="white" size={"3rem"} /> */}
         </div>
       </div>
+      <div className="copyight">
+        <h4>Rated 2024</h4>
+
+      </div>
     </div>
   );
 };

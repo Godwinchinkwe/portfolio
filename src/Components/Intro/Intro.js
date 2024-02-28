@@ -13,6 +13,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import { motion } from "framer-motion"
+import Typewriter from "typewriter-effect"
 
 
 
@@ -30,8 +31,14 @@ const Intro = () => {
             <div className='i-name'>
                 <span style ={{color:darkMode?"white":""}}> Hy! I Am </span>
                 <span> Godwin Chinkwe </span>
-                <span  style ={{color:darkMode?"white":""}}> Frontend Developer with high level of 
-                    experience in web designing and development, proudcting the Quality work </span>
+                <span  style ={{color:darkMode?"white":""}}> I'm a <Typewriter options={{
+                            strings : [ "Affiliate Marketer", "Seo Manager" , "Business Tycoon" , "Programmer" , "Youtuber" , "Designer", "FrontEnd Developer","Wordpress Developer", "Cool Website Developer", ],
+                            loop: true,
+                            autoStart:true,
+                            typeSpeed: 100,
+                            backSpeed: 80,
+                            backDelay:1500,
+                        }}/> </span>
             </div>
             <button className='button i-button'> Hire Me</button>
              <div className='i-icons'>

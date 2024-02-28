@@ -6,19 +6,23 @@ import Amazon from "../../Img/amazon.png"
 import Facebook from "../../Img/Facebook.png"
 import Shopify from "../../Img/Shopify.png"
 import { motion } from "framer-motion"
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
 
 
 
 const Works = () => {
 
   const transition = { duration:3.5, type:"spring"} 
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode; 
 
   return (
     <div className='works' id="Experience">
         <div className='awesome'>
-            <span> Works for All these</span>
+            <span style ={{color:darkMode?"#1949b8":""}}> Works for All these</span>
             <span> Brand & Clients</span>
-            <span>
+            <span style ={{color:darkMode?"white":""}}>
                Lorem Ipsum is simply dummy text of the yummy dummy 
               <br/>
               printing and typesetting industry  

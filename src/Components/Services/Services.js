@@ -6,19 +6,23 @@ import Glasses from "../../Img/glasses.png"
 import Card from "../Card/Card"
 import Resume from "./Resume.pdf"
 import { motion } from "framer-motion";
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
 
 
 const Services = () => {
 
     const transition = {
         duration: 1, type: "spring", };
+        const theme = useContext(themeContext);
+        const darkMode = theme.state.darkMode; 
 
   return (
     <div className='services' id="Services">
         <div className='s-awesome'>
-            <span> My Awesome</span>
-            <span> Services</span>
-            <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
+            <span style ={{color:darkMode?"blue":""}}> My Awesome</span>
+            <span > Services</span>
+            <span style ={{color:darkMode?"white":""}} > Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
             ispum is simply dummy text of printing</span>
             <a href={Resume} download>
             <button className='button s-button'> Download CV</button> </a>

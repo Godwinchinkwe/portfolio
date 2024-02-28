@@ -9,11 +9,21 @@ import profilePic5 from "../../Img/profile5.jpg"
 import profilePic6 from "../../Img/profile6.jpg"
 import 'swiper/css';
 import { Pagination } from 'swiper/modules';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
+
+
 import 'swiper/css/pagination';
 
 
 
+
 const Testimonials = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode; 
+
+
    const clients=[
         {
             img: profilePic1,
@@ -55,9 +65,9 @@ const Testimonials = () => {
   return (
     <div className='t-wrapper' id="Testimonials">
         <div className='t-header'>
-            <span className='testy1' >Clients always get</span>
+            <span style ={{color:darkMode?"white":""}}className='testy1' >Clients always get</span>
             <span className='testy'> Exceptional Work</span>
-            <span className='testy1'> from me. . .</span>
+            <span style ={{color:darkMode?"white":""}} className='testy1'> from me. . .</span>
             <div className='blur t-blurl' style={{background: "var(--purplr)"}}></div>
             <div className='blur t-blurl' style={{background: "skyblue"}}></div>
         </div>
