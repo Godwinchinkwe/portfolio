@@ -32,7 +32,7 @@ const Contact = () => {
   
 
   return (
-    <div className="contact-form" id="contact">
+    <div className="contact-form" id="Contact">
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}

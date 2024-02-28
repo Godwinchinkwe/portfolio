@@ -8,6 +8,7 @@
     flex-direction: column;
     gap: 2rem;
     position: relative;
+    /* background: gray; */
 }
 .t-heading{
     align-self: flex-start;

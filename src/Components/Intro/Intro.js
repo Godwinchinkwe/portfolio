@@ -12,20 +12,20 @@ import thumbsup from "../../Img/thumbsup.png"
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
-// import { motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 
 
 const Intro = () => {
 
-  // const transition = { duration : 2, type : "spring"} 
+  const transition = { duration : 2, type : "spring"} 
 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode; 
 
 
   return (
-    <div className='intro'>
+    <div className='intro' id="Home">
         <div className='i-left'>
             <div className='i-name'>
                 <span style ={{color:darkMode?"white":""}}> Hy! I Am </span>
@@ -45,14 +45,30 @@ const Intro = () => {
           <img src={Vector1} alt=""/>
           <img src={Vector2} alt=""/>
           <img src={Gm} alt=""/>
-          <img src={glassesimoji} alt=""/>
 
-          <div style={{top:"-4%", left:"68%"}}>
+          <motion.img
+          initial={{left: "-36%"}}
+          whileInView={{left:"-24%"}}
+          transition={transition}
+           src={glassesimoji} alt=""/>
+
+
+          <motion.div
+          initial={{ top: "-4%", left: "74%" }}
+          whileInView={{ left: "68%" }}
+          transition={transition}
+          style={{top:"-4%", left:"68%"}}>
             <FloatingDiv image={crown} txt1="web" txt2="Developer"/>
-          </div>
-          <div style={{top:"18rem", left:"0rem"}}>
+          </motion.div>
+
+          <motion.div
+           initial={{ left: "9rem", top: "18rem" }}
+           whileInView={{ left: "0rem" }}
+           transition={transition}
+          style={{top:"18rem", left:"0rem"}}>
             <FloatingDiv image={thumbsup} txt1="Best Dessign" txt2="Award"/>
-          </div>
+          </motion.div>
+
           <div className='blur' style={{background:"rgb(238 210 255)"}}></div>
           <div className='blur' style={{background:"c1f5ff", top:"17rem", width:"21rem", height:"11rem", left:"-9rem" }}></div>
         </div>

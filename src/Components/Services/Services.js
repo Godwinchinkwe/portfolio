@@ -5,12 +5,17 @@ import Heartemoji from "../../Img/heartemoji.png";
 import Glasses from "../../Img/glasses.png" 
 import Card from "../Card/Card"
 import Resume from "./Resume.pdf"
+import { motion } from "framer-motion";
 
 
 const Services = () => {
+
+    const transition = {
+        duration: 1, type: "spring", };
+
   return (
-    <div className='services'>
-        <div className='awesome'>
+    <div className='services' id="Services">
+        <div className='s-awesome'>
             <span> My Awesome</span>
             <span> Services</span>
             <span> Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
@@ -21,31 +26,47 @@ const Services = () => {
 
 
         </div>
-        <div className='cards'>
-            <div style={{left:"14rem"}}>
+        <motion.div className='cards'>
+            <motion.div 
+             initial={{ left: "25rem" }}
+             whileInView={{ left: "20rem" }}
+             transition={transition}
+             style={{left:"20rem"}}>
                 <Card
                 emoji ={Heartemoji}
                 heading ={"Design"} 
-                detail = {"Figma, sketch, photoshop, Adobe, Adobe xd"}/>
-            </div>
+                detail = {"Figma, sketch, photoshop,"}/>
+            </motion.div>
 
-            <div style={{top:"12rem", left:"-4rem"}}>
+
+            <motion.div
+            initial={{ left: "-4rem", top: "8rem" }}
+            whileInView={{ left: "7rem", top:"0rem" }}
+            transition={transition}
+            style={{top:"8rem", left:"7rem"}}>
                 <Card
                 emoji ={Glasses}
                 heading ={"Developer"} 
                 detail = {"Html, css, JavaScript, React"}/>
-            </div>
+            </motion.div>
 
-            <div style={{top:"19rem", left:"12rem"}}>
+
+            <motion.div 
+             initial={{ top: "16rem", left: "25rem" }}
+             whileInView={{ left: "13rem", top:"15rem" }}
+             transition={transition}
+            style={{top:"6rem", left:"15rem"}}>
                 <Card
                 emoji ={Humble}
                 heading ={"UI/UX"} 
                 detail = {"LOREM ipsum dummy text are usually section where"}/>
-            </div>
+            </motion.div>
+
+
             <div className='blur s-blur2' style={{background: "var(--purple)"}}></div>
 
 
-        </div>
+        </motion.div>
       
     </div>
   )

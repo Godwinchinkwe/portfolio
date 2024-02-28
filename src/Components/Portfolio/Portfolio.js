@@ -9,14 +9,16 @@ import Sidebar from "../../Img/sidebar.png"
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id="Portfolio">
         <span>Recent Project </span>
         <span>Portfolio </span>
 
         <Swiper
+        width={900}
         spaceBetween={30}
         slidesPerView={3}
         grapCursor={true}
+        justify-Content ={"center"}
         className='portfolio-slider'>
           <SwiperSlide>
             <img src={Sidebar} alt=""/>
