@@ -66,8 +66,36 @@ const Services = () => {
                 detail = {"LOREM ipsum dummy text are usually section where"}/>
             </motion.div>
 
+           <div className='mobview'>
+           <div >
+                <Card
+                emoji ={Heartemoji}
+                heading ={"Design"} 
+                detail = {"Figma, sketch, photoshop,"}/>
+            </div>
 
-            <div className='blur s-blur2' style={{background: "var(--purple)"}}></div>
+            <div>
+                <Card
+                emoji ={Glasses}
+                heading ={"Developer"} 
+                detail = {"Html, css, JavaScript, React"}/>
+            </div>
+            <div>
+                <Card
+                emoji ={Humble}
+                heading ={"UI/UX"} 
+                detail = {"LOREM ipsum dummy text are usually section where"}/>
+            </div>
+
+           </div>
+           
+
+
+
+            
+
+
+            <div className='blur s-blur2' style={{background: "var(--purple)"}}> </div>
 
 
         </motion.div>

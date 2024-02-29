@@ -1,8 +1,9 @@
 .intro {
     display: flex;
-    height: 85vh;
+    /* height: 85vh; */
     margin-top: 3rem;
     width: 100%;
+    height: fit-content;
     /* background: yellowgreen; */
   }
   
@@ -40,16 +41,24 @@
     width: 6rem;
     height: 2rem;
   }
-  .i-icons {
-    /* margin-bottom: 2rem; */
+  .i-iconz {
+    width: 40px;
+    height: 80px;
+    margin-bottom: 4rem;
     display: flex;
-    gap: 0rem;
-    margin-bottom: 20px;
+    /* transform: scale(0.3); */
+    width: 50%;
+    justify-content: flex-start;
+    /* background: rgb(207, 19, 19); */
+    gap: 2rem;
+    /* margin-bottom: 20px; */
   }
-  .i-icons > * {
-    transform: scale(0.3);
+  .i-iconz > * {
+    /* transform: scale(0.5); */
+    width: 40px;
+    height: 50px;
   }
-  .i-icons > *:hover {
+  .i-iconz > *:hover {
     cursor: pointer;
   }
   /* right side styling */
@@ -100,19 +109,40 @@
   @media screen and (max-width: 768px) {
     .intro {
       flex-direction: column;
-      gap: 7rem;
-      height: 64rem;
+      gap:7px;
+      margin-top: 0rem;
+      min-height: 100vh;
+      /* background: gray; */
     }
-  
+    .i-name > :nth-child(1) {
+      color: var(--black);
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .i-name > :nth-child(2) {
+      color: var(--orange);
+      font-weight: bold;
+      font-size: 2rem;
+    }
     .i-right {
       transform: scale(0.8);
-      left: -3rem;
+      min-height: 100vh;
+      position: relative;
+      /* left: -3rem; */
+      /* background:gray; */
+      /* display: none; */
     }
+
+    .i-right > :nth-child(3) {
+      transform: scale(1.6);
+      left: 30%;
+    }
+
     .i-right .blur {
       display: none;
     }
     .floating-div:nth-of-type(1){
-      /* display: none; */
+      display: none;
       top: -7rem !important;;
     }
   }

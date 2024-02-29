@@ -41,13 +41,14 @@ const Intro = () => {
                         }}/> </span>
             </div>
             <button className='button i-button'> Hire Me</button>
-             <div className='i-icons'>
-                <img src={github} alt=""/>
-                <img src={instagram} alt=""/>
-                <img src={linkedln} alt=""/>
+             <div className='i-iconz'>
+                <img src={github}   alt=""/>
+                <img src={instagram} width="70px" alt=""/>
+                <img src={linkedln} width="70px" alt=""/>
              </div>
 
         </div>
+        
         <div className='i-right'>
           <img src={Vector1} alt=""/>
           <img src={Vector2} alt=""/>

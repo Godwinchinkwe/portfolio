@@ -14,11 +14,9 @@
     padding: 0.5rem 3.5rem;
     overflow: hidden;
     color: var(--black);
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* background: rgb(173, 169, 169); */
 }
 .button{
   border-radius: 34px;
@@ -34,8 +32,8 @@
   cursor: pointer;
   color: var(--orange);
   border: 1px solid var(--orange)
-
 }
+
 @media screen and (max-width: 480px) {
   .App {
     padding: 0.5rem 1rem;
