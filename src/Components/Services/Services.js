@@ -19,7 +19,7 @@ const Services = () => {
 
   return (
     <div className='services' id="Services">
-        <div className='s-awesome'>
+        <div className='s-some'>
             <span style ={{color:darkMode?"blue":""}}> My Awesome</span>
             <span > Services</span>
             <span style ={{color:darkMode?"white":""}} > Lorem Ipsum is simply dummy text of the printing and typesetting industry   <br/>
@@ -44,7 +44,7 @@ const Services = () => {
 
 
             <motion.div
-            initial={{ left: "-4rem", top: "8rem" }}
+            initial={{ left: "5rem", top: "4rem" }}
             whileInView={{ left: "7rem", top:"0rem" }}
             transition={transition}
             style={{top:"8rem", left:"7rem"}}>
@@ -56,7 +56,7 @@ const Services = () => {
 
 
             <motion.div 
-             initial={{ top: "16rem", left: "25rem" }}
+             initial={{ top: "16rem", left: "20rem" }}
              whileInView={{ left: "13rem", top:"15rem" }}
              transition={transition}
             style={{top:"6rem", left:"15rem"}}>

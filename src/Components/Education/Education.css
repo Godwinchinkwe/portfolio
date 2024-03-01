@@ -1,0 +1,28 @@
+.educationside > :nth-child(4) {
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+
+  .educationside{
+    color: var(--gray);
+  }
+
+  .c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+.vertical-timeline-element--education{
+    color: var(--orange);
+    /* background: greenyellow; */
+}
+h3{
+    color:var(--black);
+    font-weight: bold;
+}
+.edu{
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+}

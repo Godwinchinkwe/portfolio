@@ -10,6 +10,7 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import { themeContext } from "./Context"
+import Education from './Components/Education/Education'
 // import {useContext} from "react" ;
 
 
@@ -28,6 +29,7 @@ const App = () => {
       <Works />
       <Portfolio />
       <Testimonials />
+      <Education />
       <Contact />
       <Footer />
       

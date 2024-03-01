@@ -75,14 +75,17 @@ const Testimonials = () => {
     <Swiper
     modules={[ Pagination]}
     slidePerView={1}
-    pagination={{clickable:true}}>
+    pagination={{clickable:true}}
+    >
+        
         {clients.map((client, index )=>{
            return (
 
                 <SwiperSlide key={index}>
                     <div className='testimonial'>
                     <img src={client.img} alt=""/>
-                    <span>{client.review}</span>
+                    <span
+                     style ={{color:darkMode?"white":""}}>{client.review}</span>
 
                     </div>
                     

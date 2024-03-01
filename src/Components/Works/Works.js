@@ -19,7 +19,7 @@ const Works = () => {
 
   return (
     <div className='works' id="Experience">
-        <div className='awesome'>
+        <div className='workawesome'>
             <span style ={{color:darkMode?"#1949b8":""}}> Works for All these</span>
             <span> Brand & Clients</span>
             <span style ={{color:darkMode?"white":""}}>

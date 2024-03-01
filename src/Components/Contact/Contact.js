@@ -41,11 +41,11 @@ const Contact = () => {
     <div className="contact-form" id="Contact">
       <div className="w-left">
         <div className="s-awesome">
-          {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}> Get in Touch </span>
-          {/* <span>Get in Touch</span> */}
+    
+          <span style={{color: darkMode?'#1949b8': ''}}> Get in Touch </span>
+        
           <span>Contact me</span>
-          <span>Lets Make Something Amazing together start by Saying Hello </span>
+          <span style={{color: darkMode?'white': ''}}>Lets Make Something Amazing together start by Saying Hello </span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}

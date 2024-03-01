@@ -1,39 +1,34 @@
 .services {
     padding: 0 3rem 0 3rem;
     display: flex;
-    /* height: 30rem; */
-    /* margin-bottom: 8rem; */
-    margin-top: 7rem;
-    /* margin-bottom: 13rem; */
+    margin-top: 5rem;
     padding-top: 3rem;
-    justify-content: center;
     /* background: gray; */
     justify-content: space-between;
-    /* justify-content: center; */
     height: 100vh;
-    /* flex-wrap: wrap; */
   }
   /* left side */
-  .s-awesome {
+  .s-some {
     display: flex;
     flex-direction: column;
+    position: relative;
     /* position: relative; */
     /* width: 60%; */
     /* background: yellow; */
     /* gap: 20px; */
   }
   
-  .s-awesome > :nth-child(1) {
+  .s-some > :nth-child(1) {
     color: var(--black);
     font-size: 2.5rem;
     font-weight: bold;
   }
-  .s-awesome > :nth-child(2) {
+  .s-some > :nth-child(2) {
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;
   }
-  .s-awesome > :nth-child(3) {
+  .s-some > :nth-child(3) {
     color: var(--black);
     font-size: 18px;
     margin-top: 1rem;
@@ -48,7 +43,7 @@
     position: relative;
     /* padding-right: 250px; */
     width: 50%;
-    /* background: gray; */
+    /* background: rgb(13, 175, 62); */
   }
   .cards > * {
     position: absolute;
@@ -70,7 +65,7 @@
   
   @media screen and (max-width: 768px) {
     .services {
-      /* margin-top: 0; */
+      margin-top: 0;
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -80,7 +75,7 @@
       padding: 0px;
       /* background:gray; */
     }
-    .s-awesome{
+    .s-some{
       width: 100%;
       /* background: rgb(231, 18, 18); */
        /* padding-top: 10rem; */
@@ -92,12 +87,12 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       gap: 17rem;
       display: none;
        background:rgb(190, 7, 7);
        gap: 10px;
-       min-height: 100vh;
+       min-height: 200vh;
        width: 100%;
        /* position: static; */
     }
