@@ -1,12 +1,13 @@
 .t-wrapper{
     padding:  0 3rem 0 3rem;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 7rem;
+    /* margin-bottom: 7rem; */
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     position: relative;
     /* background: gray; */
 }
@@ -48,7 +49,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 30rem;
     height: 12rem;
     /* styles same as work.css */
@@ -83,12 +84,12 @@
     background: var(--orange);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
     .t-wrapper{
         padding: 0;
     }
     .testimonial>img{
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
   }

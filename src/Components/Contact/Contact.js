@@ -40,17 +40,19 @@ const Contact = () => {
   return (
     <div className="contact-form" id="Contact">
       <div className="w-left">
-        <div className="awesome">
+        <div className="s-awesome">
           {/* darkMode */}
           <span style={{color: darkMode?'white': ''}}> Get in Touch </span>
           {/* <span>Get in Touch</span> */}
           <span>Contact me</span>
+          <span>Lets Make Something Amazing together start by Saying Hello </span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
           ></div>
         </div>
       </div>
+      
 
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>

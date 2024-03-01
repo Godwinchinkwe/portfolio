@@ -3,6 +3,7 @@
     display: flex;
     height: 80vh;
     margin-top: 4rem;
+    /* margin-bottom: 4rem; */
       /* scroll */
   padding-top: 3rem;
   /* width: 80%; */
@@ -13,11 +14,11 @@
 
 .c-right{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: relative;
     flex: 1;
     /* width: 35%; */
-     /* background: grey; */
+     /* background: rgb(141, 39, 39); */
 }
 
 .c-right>form
@@ -38,10 +39,28 @@
     border-radius: 8px;
     font-size: 16px;   
 }
+
+.s-awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    /* width: 50%; */
+    /* background: #000; */
+  }
+
+  .s-awesome > :nth-child(3) {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
 .w-left{
     width: 50%;
     /* background: grey; */
-    text-align: flex-end;
+    text-align: center;
+    justify-content: center;
 }
 
 textarea{
@@ -53,15 +72,30 @@ textarea{
     left: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .contact-form{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
+        gap: 2rem;
+       min-height:40rem;
     }
     .c-right .user{
-        width: 16rem;
+        /* width: 16rem; */
+        width: 178%;
+    }
+
+    .c-right{
+        display: flex;
+        /* background: #000; */
+        justify-content: center;
+        /* width: 35%; */
+         /* background: grey; */
+    }
+
+    .w-left{
+        width: 100%;
+        /* background: grey; */
+        text-align: center;
     }
 
 } 
