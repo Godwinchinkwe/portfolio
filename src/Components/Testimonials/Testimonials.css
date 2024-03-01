@@ -23,6 +23,7 @@
     color: var(--black);
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
 }
 .testy1{
     color: var(--black);
@@ -65,6 +66,7 @@
 }
 .testimonial>span{
     color: var(--gray);
+
 }
 
 
@@ -92,4 +94,19 @@
         width: 60px;
         height: 60px;
     }
+    .testimonial>span{
+        font-size: 15px;
+    
+    }
+  }
+
+  @media screen and (max-width: 425px){
+    .testy1{
+        font-size: 1.5rem;
+    }
+    
+    .testy{
+        font-size: 1.5rem;
+    }
+
   }
