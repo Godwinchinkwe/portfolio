@@ -1,12 +1,10 @@
 .works {
     padding: 0 3rem 0 3rem;
     display: flex;
-    height: 90vh;
-    margin-top: 4rem;
-    /* background: grey; */
+    height: 80vh; 
+    margin-top: 4rem;    
+    /* background: rgb(170, 20, 20);  */
     justify-content: space-between;
-  
-    /* scroll */
     align-items: center;
   }
   /* left side */
@@ -123,9 +121,10 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 55rem;
+      height: 45rem;  
       padding: 0px;
-      gap: 5rem;
+      gap: 3rem;
+      margin-top: 2rem; 
     }
     .workawesome{
       width: 100%;

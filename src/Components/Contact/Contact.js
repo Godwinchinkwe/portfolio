@@ -56,11 +56,27 @@ const Contact = () => {
 
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user" required placeholder="Name"/>
-          <input type="email"  name="user_email" className="user" required placeholder="Email"/>
-          <textarea name="message"  className="user" required placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting Us"}</span>
+
+          <input type="text" 
+          name="to_name" 
+          className="user"
+          required placeholder="Name"/>
+
+          <input type="email" 
+           name="user_email" 
+           className="user" 
+           required placeholder="Email"/>
+
+          <textarea name="message" 
+           className="user" 
+           required placeholder="Message"/>
+
+
+          <input type="submit"
+           value="Send"
+            className="button"/>
+
+          <span>{done && "Thank you very much for Contacting Us"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

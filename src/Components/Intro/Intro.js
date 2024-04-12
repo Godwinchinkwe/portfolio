@@ -5,7 +5,7 @@ import instagram from "../../Img/instagram.jpg"
 import linkedln from "../../Img/linkedln.png"
 import Vector1 from "../../Img/Vector1.png"
 import Vector2 from "../../Img/Vector2.png"
-import Gm from "../../Img/Gm.png"
+import geeewinn from "../../Img/geeewinn.png"
 import glassesimoji from "../../Img/glassesimoji.png"
 import crown from "../../Img/crown.png"
 import thumbsup from "../../Img/thumbsup.png" 
@@ -52,7 +52,7 @@ const Intro = () => {
         <div className='i-right'>
           <img src={Vector1} alt=""/>
           <img src={Vector2} alt=""/>
-          <img src={Gm} alt=""/>
+          <img src={geeewinn} alt=""/>
 
           <motion.img
           initial={{left: "-36%"}}
